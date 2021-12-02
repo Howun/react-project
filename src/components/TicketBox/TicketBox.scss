@@ -1,0 +1,12 @@
+.employeeID {
+  display: flex;
+  flex-wrap: wrap;
+
+  .team-info{
+    border: 1px solid black;
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+  }
+}
+
