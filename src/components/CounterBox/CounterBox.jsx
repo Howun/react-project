@@ -11,16 +11,18 @@ const CounterBox = () => {
 
   const handleDecrement = () => {
     if (counter === 0) {
-      setCounter (counter = 0)
     } else {
     setCounter (counter - 1)
     }
   };
 
-  return  <div>
-    <button onClick={handleDecrement}>-</button>
-    <p>{counter}</p>
-    <button onClick={handleIncrement}>+</button>
+  return <div className="counter-container">
+  <p>Counter</p>
+  <div className="counter">
+    <button className="counter__decrement counterBtn" onClick={handleDecrement}>-</button>
+    <p className="counter__number  font-link">{counter}</p>
+    <button className="counter__increment counterBtn" onClick={handleIncrement}>+</button>
+  </div>
   </div>
 }
 

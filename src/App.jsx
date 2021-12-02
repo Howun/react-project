@@ -6,12 +6,12 @@ import CounterBox from "./components/CounterBox/CounterBox";
 const App = () => {
 
   return (
-    <div className="app">
-      <header className="greeting">
-        <h1 className="greeting__heading">Ticket Tracker</h1>
+    <div className="app font-link">
+      <header className="greeting font-link">
+        <h1 className="greeting__heading font-link">Ticket Tracker</h1>
       </header>
       
-      <section className="main">
+      <section className="main  font-link">
         <TicketBox teamArr={team}/>
       </section>
     </div>

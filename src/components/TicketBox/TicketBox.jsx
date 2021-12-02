@@ -10,8 +10,8 @@ const TicketBox = (props) => {
     return (
     <>
     <div key={title + index} className="team-info">
-      <p className="teamName">Name: {team.name}</p>
-      <p className="teamRole">Role: {team.role}</p>
+      <h3 className="teamName">{team.name}</h3>
+      <h3 className="teamRole">{team.role}</h3>
       <CounterBox/>
     </div>
     </>
@@ -27,4 +27,4 @@ const TicketBox = (props) => {
   )
 };
 
-export default TicketBox;
+export default TicketBox

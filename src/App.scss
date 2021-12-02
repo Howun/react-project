@@ -1,10 +1,20 @@
-.greeting{
-  &__heading {
-    display: flex;
-    justify-content: center
+.font-link {
+  font-family: 'Exo 2', sans-serif;
 }
+.app {
+  background-color: #130303;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.main {
-  
+
+.greeting{
+  background-color: transparent;
+  &__heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: whitesmoke;
+}
 }
