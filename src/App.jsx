@@ -1,7 +1,6 @@
 import "./App.scss";
 import team from "./data/team"
 import TicketBox from "./components/TicketBox/TicketBox";
-import CounterBox from "./components/CounterBox/CounterBox";
 
 const App = () => {
 

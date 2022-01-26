@@ -2,6 +2,7 @@
   "name": "react-project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://howun.github.io/react-project",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",
@@ -9,8 +10,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2",
-    "homepage": "https://github.com/howun/react-project"
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
